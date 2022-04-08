@@ -12,5 +12,5 @@ putchar(x);
 for (x = 'a' ; x <= 'f' ; x++)
 putchar(x);
 putchar('\n');
-return (0;);
+return (0);
 }
