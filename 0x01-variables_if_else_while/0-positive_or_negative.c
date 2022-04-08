@@ -15,7 +15,7 @@ if (n>0)
 {
 printf("%d is %s\n", n, "positive");
 }
-elseif(n<0)
+else if(n<0)
 {
 printf("%d is \n", n, "negative");
 }    
