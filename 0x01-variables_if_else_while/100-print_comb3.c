@@ -14,6 +14,8 @@ for (j = 1 ; i < 10 ; j++)
 {
 putchar(i + 48);
 putchar(j + 48);
+if (i == 8 && j == 9)
+continue;
 putchar(',');
 putchar(' ');
 }
