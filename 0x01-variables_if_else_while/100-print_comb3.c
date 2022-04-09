@@ -1,20 +1,20 @@
 #include <stdio.h>
 /**
- * main - Lowercase Letters!.
-(*
- * Return: 0 on success
+ * main - Prints all possible combinations of two different digits,
+ *
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
-int i;
-int j;
-for (i = 0 ; i < 9 ; i++)
+int x, y;
+for (x = 0; x < 9; x++)
 {
-for (j = 1 ; i < 10 ; j++)
+for (y = x + 1; y < 10; y++)
 {
-putchar(i + 48);
-putchar(j + 48);
-if (i == 8 && j == 9)
+putchar((x % 10) + '0');
+putchar((y % 10) + '0');
+if (x == 8 && y == 9)
 continue;
 putchar(',');
 putchar(' ');
