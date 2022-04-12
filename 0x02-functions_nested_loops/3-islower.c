@@ -4,9 +4,10 @@
  *
  * Return: Nothing.
  */
-int _islower(int c)
+int _islower(char c)
 {
-if (int c <= 'a' || int c >= 'z')
+char c;
+if (c <= 'a' || c >= 'z')
 {
 return (0);
 }    
