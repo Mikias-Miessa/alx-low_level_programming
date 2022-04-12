@@ -1,21 +1,31 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
- * print_to_98 - prints integers
- * @n: Number parameter
- * Return: Nothing.
+ * print_to_98 - print to 98
+ * @n : number params
+ * Return: 
  */
+
 void print_to_98(int n)
 {
-int i;
-
-for (i = n ; i <= 98 ; i++)
+if (n < 98)
 {
-if (i == 98)
+while (n < 98)
 {
-_putchar(i + 48);
+	printf("%i, ", n);
+	n++;
 }
-_putchar(i + 48);
-_putchar(',');
-_putchar(' ');
 }
+else if (n > 98)
+{
+while (n > 98)
+{
+	printf("%i, ", n);
+	n--;
+}
+}
+else
+printf("98");
+putchar('\n');
 }
