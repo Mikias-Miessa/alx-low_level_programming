@@ -13,6 +13,6 @@ while (a[i] != 'x')
 _putchar(a[i]);
 i++;
 }
-_putchar('\n')
+_putchar('\n');
 return (0);
 }
