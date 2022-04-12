@@ -38,7 +38,7 @@ else
 {
 _putchar(' ');
 _putchar(' ');
-_putchar(p + 48);
+_putchar(a + 48);
 }
 }
 _putchar('\n');
