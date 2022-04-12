@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * is_lower - check if is_lower.
  *
