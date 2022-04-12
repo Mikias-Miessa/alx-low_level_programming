@@ -1,4 +1,10 @@
 #include "main.h"
+/**
+ * jack_bauer - print every minute.
+ *
+ *
+ * Return: last digit on success.
+ */
 void jack_bauer(void)
 {
 int i, j;
