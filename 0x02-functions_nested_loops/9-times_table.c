@@ -14,19 +14,19 @@ for (j = 0 ; j <= 9 ; j++)
 {
 int a;
 a = i * j;
-if (a > 9)
-{
+//if (a > 9)
+//{
 _putchar(a / 10 + 48);
 _putchar(a % 10 + 48);
 _putchar(',');
 _putchar(' ');
-}
-else
-{
-_putchar(a + 48);
-_putchar(',');
-_putchar(' ');
-}
+//}
+//else
+//{
+//_putchar(a + 48);
+//_putchar(',');
+//_putchar(' ');
+//}
 }
 _putchar('\n');
 }
