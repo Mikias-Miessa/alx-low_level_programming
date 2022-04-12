@@ -18,11 +18,10 @@ _putchar(48);
 continue;}
 
 a = i * j;
-if (a > 9)
-{
-
 _putchar(',');
 _putchar(' ');
+if (a > 9)
+{
 _putchar(a / 10 + 48);
 _putchar(a % 10 + 48);
 
