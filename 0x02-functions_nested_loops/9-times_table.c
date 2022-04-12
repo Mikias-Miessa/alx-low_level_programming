@@ -15,8 +15,8 @@ for (j = 0 ; j <= 9 ; j++)
 if (j == 0)
 {
 _putchar(48);
-continue;}
-
+continue;
+}
 a = i * j;
 _putchar(',');
 _putchar(' ');
