@@ -4,12 +4,11 @@
  *
  * Return: Nothing.
  */
-int _islower(char c)
+int _islower(int c)
 {
-char c;
-if (c <= 'a' || c >= 'z')
+if (c <= 'a' && c >= 'z')
 {
 return (0);
-}    
+}
 return 1;
 }
