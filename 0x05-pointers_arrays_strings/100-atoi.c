@@ -42,3 +42,4 @@ int _atoi(char *s)
 	if (is_num == 0)
 		return (0);
 	return (num);
+}
