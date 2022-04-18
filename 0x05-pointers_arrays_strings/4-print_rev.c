@@ -5,10 +5,17 @@
  * Return: Nothing.
  */
 void print_rev(char *s)
+int i = 0;
 {
-while (*s = '\0')
+while (*s != '\0')
 {
-_putchar(*s--);
+*s++;
+i++;
+}
+while (i > 0)
+{
+_putchar(*s--)
+i--;
 }
 _putchar('\n');
 }
