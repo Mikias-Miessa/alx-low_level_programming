@@ -16,7 +16,7 @@ if (i % 2 == 0)
 n = i / 2;
 else
 {
-i--
+i--;
 n = (i - 1) / 2;
 }
 while (str[n])
