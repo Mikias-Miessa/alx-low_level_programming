@@ -14,9 +14,11 @@ i++;
 }
 if (i % 2 == 0)
 n = i / 2;
-i--;
 else
+{
+i--
 n = (i - 1) / 2;
+}
 while (str[n])
 {
 _putchar(str[n]);
