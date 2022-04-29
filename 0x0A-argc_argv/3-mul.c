@@ -13,4 +13,5 @@ for (i = 1 ; i < argc ; i++)
 mul = mul * argv[i];
 }
 printf("%d\n", mul);
+return (0);
 }
