@@ -2,9 +2,9 @@
 
 /**
  * print_diagonal - printing in diagonal
- * @n: input
+ * @n: character
  *
- * Return: void
+ * Return: nothing
  */
 
 
